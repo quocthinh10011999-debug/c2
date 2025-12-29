@@ -1,0 +1,54 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Custom Colors */
+.bg-mod-red { background-color: #a80000; }
+.text-mod-red { color: #a80000; }
+.border-mod-red { border-color: #a80000; }
+.bg-mod-gold { background-color: #ffcc00; }
+.text-mod-gold { color: #ffcc00; }
+
+/* Content Card Styles */
+.content-card {
+    background: white;
+    border-top: 4px solid #a80000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Animations */
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+}
+
+/* Utility Classes */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
