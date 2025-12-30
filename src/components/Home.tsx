@@ -26,9 +26,9 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => (
              </h3>
              <ul className="space-y-3">
                {[
-                 "Hội nghị tổng kết công tác Đảng, công tác chính trị quý III",
+                 "Hội nghị tổng kết công tác Đảng, công tác chính trị quý IV",
                  "Giao lưu hậu phương quân đội thắm tình quân dân",
-                 "Tăng cường công tác giáo dục chính trị cho chiến sĩ mới"
+                 "Tăng cường công tác giáo dục chính trị cho chiến sĩ nhập ngũ năm 2025. Đẩy nhanh công tác chuẩn bị tiếp nhận huấn luyện chiến sĩ nhập ngũ năm 2026 "
                ].map((item, i) => (
                  <li key={i} className="text-sm border-b border-slate-100 pb-2 last:border-0 hover:text-mod-red cursor-pointer flex gap-2">
                    <span className="text-slate-400 font-mono">0{i+1}.</span>
@@ -82,14 +82,14 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => (
         <div className="bg-white p-5 border border-slate-200 shadow-sm">
           <h3 className="text-slate-800 font-bold border-b border-slate-200 pb-2 mb-4 uppercase text-[12px]">Video nổi bật</h3>
           <div className="aspect-video bg-slate-200 rounded overflow-hidden relative">
-             <img src="https://picsum.photos/seed/vid/400/225" alt="Video thumb" className="w-full h-full object-cover" />
+             <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t39.30808-6/600281932_122173797602619420_7047020449649347904_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEEEJ7GzOns48ER8kft3xbroQYYTtFndEehBhhO0Wd0R-xmbwoOsWFJzOV83Y6F7YntB1lDZKA_j_6BlWU01aIl&_nc_ohc=HMoJIvBXnDgQ7kNvwHI0PGJ&_nc_oc=AdlIOzgUg7z4uN3YEL_-E6RV-saBQtj8RUBN95j21n-SBivv3c21yHBmvPyKU0J7s4Y&_nc_zt=23&_nc_ht=scontent.fhan5-5.fna&_nc_gid=f9l5lQx7L0uZncH1G9jOGQ&oh=00_Afkn6aTE40DqcmRK2k7lGu32oCI2wHq6pYpXDNqWu9pVEA&oe=6958EE8F" alt="Video thumb" className="w-full h-full object-cover" />
              <div className="absolute inset-0 flex items-center justify-center bg-black/20 group cursor-pointer">
                 <div className="w-12 h-12 bg-mod-red rounded-full flex items-center justify-center text-white shadow-xl transform group-hover:scale-110 transition-transform">
                    <svg className="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20"><path d="M4.516 7.548c0-.923.951-1.476 1.729-1.1l5.823 3.707c.558.357.558 1.843 0 2.2L6.245 16.062c-.778.376-1.729-.177-1.729-1.1V7.548z" /></svg>
                 </div>
              </div>
           </div>
-          <p className="mt-3 text-sm font-medium text-slate-700">Phóng sự: 24h của người chiến sĩ tại Đơn vị Quyết Thắng</p>
+          <p className="mt-3 text-sm font-medium text-slate-700">Phóng sự: 24h của người chiến sĩ tại Đơn vị Tiểu đoàn 15 SPG-9</p>
         </div>
       </div>
     </div>

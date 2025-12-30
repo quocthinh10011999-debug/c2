@@ -10,7 +10,11 @@ const Footer: React.FC<FooterProps> = ({ onAdminClick }) => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         <div className="md:col-span-2 space-y-4">
            <div className="flex items-center gap-3 text-white mb-6">
-              <div className="bg-mod-red p-1 rounded-full"><svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg></div>
+              <img
+                src="https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-1/476484585_122124106886619420_6455411769556515810_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeGhlPuQJnL0IGgILyozmA5mtDVkrRZ0PDy0NWStFnQ8PGdH88b9IRDTxi_CQkkedWziHMPaHLGae-XhrdIqWyQe&_nc_ohc=YzEYZlRhLGcQ7kNvwHIajTW&_nc_oc=Adm0sLdgWYNYMQQa24Ko864V6rpNvTbvyC4AGK8E7CkE6KwEtPjLJDFtNSpbgZMDbK8&_nc_zt=24&_nc_ht=scontent.fhan5-8.fna&_nc_gid=sqM-RL_h4SCg0r-orxCtKA&oh=00_AfmTiAMFUbs7TvJPXI-Yqpg3mrVcES2nksryvnJdGI4sSg&oe=69599E23"
+                alt="Logo Tiểu đoàn 15"
+                className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-lg"
+              />
               <span className="font-bold text-lg uppercase tracking-widest">TIỂU ĐOÀN 15</span>
            </div>
            <p className="text-[12px] leading-relaxed">

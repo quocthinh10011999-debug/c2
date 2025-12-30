@@ -89,7 +89,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => (
                 </div>
              </div>
           </div>
-          <p className="mt-3 text-sm font-medium text-slate-700">Phóng sự: 24h của người chiến sĩ tại Đơn vị Quyết Thắng</p>
+          <p className="mt-3 text-sm font-medium text-slate-700">Phóng sự: 24h của người chiến sĩ tại Tiểu đoàn 15</p>
         </div>
       </div>
     </div>
