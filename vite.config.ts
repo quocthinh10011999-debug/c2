@@ -6,8 +6,9 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       server: {
-        port: 3000,
+        port: 3014,        // Đổi thành 3014 cho đúng với lệnh bạn đang dùng
         host: '0.0.0.0',
+        allowedHosts: true // THÊM DÒNG NÀY để cho phép ngrok truy cập
       },
       plugins: [react()],
       define: {

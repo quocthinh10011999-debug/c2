@@ -22,8 +22,8 @@ const Footer: React.FC<FooterProps> = ({ onAdminClick }) => (
           <h4 className="text-white font-bold text-[11px] uppercase mb-4 tracking-wider">Thông tin liên hệ</h4>
           <ul className="text-[11px] space-y-2">
             <li>Địa chỉ: Đô Lương, Nghệ An</li>
-            <li>Điện thoại: 0123.XXXX.456</li>
-            <li>Thư điện tử: tieudoan15@.gov.vn</li>
+            <li>Điện thoại: 09874564321</li>
+            <li>Thư điện tử: tieudoan15@gmail.com</li>
           </ul>
         </div>
         <div>
